@@ -1,0 +1,1 @@
+This folder is reserved for local furniture images. Current page images load from Unsplash URLs and therefore require an internet connection. You may download properly licensed images into this folder and update the HTML src paths if required.

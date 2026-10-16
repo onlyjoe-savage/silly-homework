@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oak & Ember Interiors — thoughtful furniture for beautiful living.">
+  <title>Categories | Oak & Ember Interiors</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-oak: #233D32;
+      --color-oak-light: #52745C;
+      --color-sand: #D6B98C;
+      --color-cream: #F7F4EE;
+      --color-ink: #242824;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: Arial, Helvetica, sans-serif; }
+  </style>
+</head>
+<body class="bg-cream text-ink">
+  <header class="sticky top-0 z-50 bg-oak text-white shadow-md">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+      <a href="index.html" class="text-lg font-bold tracking-wide sm:text-xl">OAK <span class="text-sand">&</span> EMBER</a>
+      <details class="relative md:hidden">
+        <summary class="cursor-pointer list-none rounded-lg border border-white/30 px-3 py-2 text-sm">Menu ☰</summary>
+        <div class="absolute right-0 mt-2 flex min-w-44 flex-col gap-1 rounded-lg bg-white p-3 text-oak shadow-lg">
+          <a class="rounded px-3 py-2 hover:bg-cream" href="index.html">Home</a>
+          <a class="rounded px-3 py-2 hover:bg-cream" href="about.html">About</a>
+          <a class="rounded px-3 py-2 hover:bg-cream" href="products.html">Products</a>
+          <a class="rounded px-3 py-2 hover:bg-cream" href="categories.html">Categories</a>
+          <a class="rounded px-3 py-2 hover:bg-cream" href="gallery.html">Gallery</a>
+          <a class="rounded px-3 py-2 hover:bg-cream" href="contact.html">Contact</a>
+        </div>
+      </details>
+      <div class="hidden items-center gap-5 text-sm font-medium lg:gap-7 md:flex">
+        <a class="hover:text-sand" href="index.html">Home</a>
+        <a class="hover:text-sand" href="about.html">About</a>
+        <a class="hover:text-sand" href="products.html">Products</a>
+        <a class="hover:text-sand" href="categories.html">Categories</a>
+        <a class="hover:text-sand" href="gallery.html">Gallery</a>
+        <a class="hover:text-sand" href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main><section class="bg-oak px-4 py-14 text-white sm:px-6 lg:px-8"><div class="mx-auto max-w-7xl"><p class="font-bold uppercase tracking-widest text-sand">Find your style</p><h1 class="mt-3 text-4xl font-bold sm:text-5xl">Shop by category.</h1><p class="mt-4 max-w-2xl text-lg text-white/80">Start with the room you want to transform and discover pieces that work together.</p></div></section>
+  <section class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8"><div class="grid gap-7 sm:grid-cols-2"><article class="group overflow-hidden rounded-xl bg-white shadow-md"><img class="h-64 w-full object-cover transition duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80" alt="Living room furniture" loading="lazy"><div class="p-6"><h2 class="text-2xl font-bold">Living room</h2><p class="mt-2 text-gray-600">Explore pieces for relaxing, entertaining and spending time together.</p><p class="mt-3 text-sm font-semibold text-oak">Sofas, armchairs, coffee tables and media units.</p><a class="mt-5 inline-block font-bold text-oak underline decoration-sand decoration-2 underline-offset-4" href="products.html">Browse products →</a></div></article>
+<article class="group overflow-hidden rounded-xl bg-white shadow-md"><img class="h-64 w-full object-cover transition duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80" alt="Bedroom furniture" loading="lazy"><div class="p-6"><h2 class="text-2xl font-bold">Bedroom</h2><p class="mt-2 text-gray-600">Create a calm and comfortable space to recharge.</p><p class="mt-3 text-sm font-semibold text-oak">Beds, bedside tables, wardrobes and dressers.</p><a class="mt-5 inline-block font-bold text-oak underline decoration-sand decoration-2 underline-offset-4" href="products.html">Browse products →</a></div></article>
+<article class="group overflow-hidden rounded-xl bg-white shadow-md"><img class="h-64 w-full object-cover transition duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&fit=crop&w=1000&q=80" alt="Dining room furniture" loading="lazy"><div class="p-6"><h2 class="text-2xl font-bold">Dining room</h2><p class="mt-2 text-gray-600">Bring people together around a table made for sharing.</p><p class="mt-3 text-sm font-semibold text-oak">Dining tables, chairs and storage furniture.</p><a class="mt-5 inline-block font-bold text-oak underline decoration-sand decoration-2 underline-offset-4" href="products.html">Browse products →</a></div></article>
+<article class="group overflow-hidden rounded-xl bg-white shadow-md"><img class="h-64 w-full object-cover transition duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80" alt="Home office furniture" loading="lazy"><div class="p-6"><h2 class="text-2xl font-bold">Home office</h2><p class="mt-2 text-gray-600">Build a practical, inspiring corner for focus and creativity.</p><p class="mt-3 text-sm font-semibold text-oak">Desks, office chairs, shelving and organisers.</p><a class="mt-5 inline-block font-bold text-oak underline decoration-sand decoration-2 underline-offset-4" href="products.html">Browse products →</a></div></article>
+</div></section></main>
+  <footer class="bg-oak px-4 py-8 text-white sm:px-6">
+    <div class="mx-auto flex max-w-7xl flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div><p class="font-bold tracking-wide">OAK <span class="text-sand">&</span> EMBER INTERIORS</p><p class="mt-1 text-sm text-white/70">Thoughtful furniture. Beautiful living.</p></div>
+      <p class="text-sm text-white/70">© 2026 Oak & Ember Interiors. Student project.</p>
+      <div class="flex flex-wrap gap-4 text-sm"><a class="hover:text-sand" href="products.html">Shop</a><a class="hover:text-sand" href="about.html">Our story</a><a class="hover:text-sand" href="contact.html">Contact</a></div>
+    </div>
+  </footer>
+
+</body>
+</html>
